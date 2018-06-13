@@ -14,7 +14,7 @@ docker build -f .\Dockerfile -t springboot-webservice .
 # run it
 docker run -p 8085:8085 springboot-webservice
 
-#curl 
+# curl 
 ## healthcheck - should return 200
 curl http://localhost:8085/rest/security/status
 
